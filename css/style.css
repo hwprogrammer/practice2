@@ -156,7 +156,6 @@ li{
     width: 100%;
 }
 
-<<<<<<< HEAD
 .middle_banner{
     width: 100%;
     display: flex;
@@ -203,7 +202,7 @@ li{
 
 .texts{
     text-align: center;
-=======
+}
 .top-post{
     width: 80%;
     padding: 0 10%;
@@ -311,5 +310,4 @@ li{
 .board-banner p{
     margin: 0;
     margin-bottom: 45px;    
->>>>>>> 9a5f97eb4e99db00473b832da1ac12f053b711ab
 }
