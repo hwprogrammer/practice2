@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
 }
 
 .container{
@@ -142,4 +154,113 @@ body{
 
 .banner-image img{
     width: 100%;
+}
+
+.top-post{
+    width: 80%;
+    padding: 0 10%;
+    padding-top: 50px;
+    background-color: #EDF7FA;
+}
+
+.post-banner{
+    background-color: #EDF7FA;
+    width: 80%;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-post ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-post ul li a{
+    text-decoration: none;
+}
+
+.top-post ul li.left a{
+    color: #21243D;
+    font-size: 22px;
+}
+
+.top-post ul li.right a{
+    color: #00A8CC;
+}
+
+.post-banner .post1{
+    background-color: #fff;
+    width: 40%;
+    padding: 5px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post-banner .post1 h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+.post-banner .post1 h5{
+    font-size: 18px;
+    color: #21243D;
+}
+
+.post-banner .post1 p{
+    width: 70%;
+    color: #21243D;
+}
+
+.post-banner .post2{
+    background-color: #fff;
+    width: 40%;
+    padding: 5px 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post-banner .post2 h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+.post-banner .post2 h5{
+    font-size: 18px;
+    color: #21243D;
+}
+
+.post-banner .post2 p{
+    width: 70%;
+    color: #21243D;
+}
+
+.board-banner{
+    width: 75%;
+    padding: 20px 12%;
+    text-align: center;
+}
+
+.board-banner h1{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #21243D;
+}
+
+.board-banner h4{
+    margin: 0;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #21243D;
+}
+
+.board-banner p{
+    margin: 0;
+    margin-bottom: 45px;    
 }
