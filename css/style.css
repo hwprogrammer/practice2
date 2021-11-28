@@ -2,6 +2,103 @@ body{
     margin: 0;
 }
 
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(185, 52, 52);
+}
+
+.list{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li{
+    margin: 0 15px;
+    position: relative;
+    list-style: none;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    height: 1px;
+    background:#02897A;
+    transition: 0.6s;
+
+}
+.list li:hover:before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #02897A;
+}
+.list li::after{
+    transition: 0.6s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #02897A;
+    left: 100%;
+    top: 0;
+}
+.list li:hover:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #02897A;
+    top: 0;
+    left: 0;
+}
+
+
+
+.list li a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 18px;
+}
+.icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons li{
+    list-style: none;
+}
+
+.tel{
+    color: blue;
+}
+
+.you{
+    color: red;
+}
+
+.inst{
+    color: purple;
+}
+
+
+
+.container input{
+    width: 20%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    background:rgba(0,0,0,0.9);
+    color: white;
+}
+
+
 .banner{
     width: 80%;
     padding: 30px 10%;
